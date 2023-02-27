@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: face;
+    src: url(../desafio-pagina-principal/fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: faces;
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+
+/* configuração de LINKS*/
+a{
+    color: #046d00;
+    text-decoration: underline;
+    font-weight: 900;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: 900;
+    color: #00530bd5;
+    background-color: #6cee60ef;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+.link{
+    color: #7ed875;
+    text-decoration: none;
+}
+.link:hover{
+    color: #064400;
+    text-decoration: none;
+    background-color: #3CDA83;
+    border-radius: 20px;
+}
+
+/* configuração de TEXTO*/
+b{
+    font-size: large;
+    font-weight: bold;
+}
+p{
+    padding: 15px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+main h1{
+    font-family: face;
+        src: url(../desafio-pagina-principal/fontes/idroid.otf);
+        font-size: 20pt;
+        color: #005a29;
+        margin: 0px 0px 0px 10px;
+}
+main h2{
+        font-family: face;
+        src: url(../desafio-pagina-principal/fontes/idroid.otf);
+        font-size: 15pt;
+        color: #005a29;
+        background-image: linear-gradient(to right, #26c96a, transparent);
+        text-indent: 8px;
+        margin: 0px 0px 0px 10px;
+}
+h3{
+    background-color: #3CDA83;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px 12px 0px 0px;
+    padding: 6px;
+}
+abbr{
+    text-decoration: underline;
+}
+main strong{
+    color:rgb(7, 80, 0);
+    background-color: #57df57ea;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+/* configuração de PAGINA*/
+body{
+    background-color:#c5ebd6;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+/* configuração de CABEÇALHO*/
+#cabecalho{
+    background-image: linear-gradient(to top, #08361e, #3CDA83);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    min-height: 183px;
+    padding-top: 10px;
+}
+#cabecalho h1{
+    font-family: faces;
+    src: url(fontes/BebasNeue-Regular.ttf);
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px rgba(19, 18, 18, 0.671);
+}
+#cabecalho p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    text-shadow: 2px 2px rgba(19, 18, 18, 0.671);
+    margin: auto;
+    max-width: 500px;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+}
+
+/* configuração de MENU*/
+nav{
+    display: block;
+    position: absolute;
+    top: 165px;
+    left: 45px;
+}
+nav > a {
+    color: rgb(158, 250, 104);
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-weight: bolder;
+    font-size: 0.95em;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+nav > a:hover{
+    background-color: #67ffabab;
+    color: rgb(10, 78, 4);
+    border-radius: 7px;
+}
+
+/* configuração de INTERFACE GLOBAL*/
+#interface {
+    box-shadow: 3px 0px 10px rgb(29, 129, 34);
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: auto;
+    padding-top: 40px;
+    min-width: 280px;
+    max-width: 800px;
+    
+}
+
+/* configuração de VIDEO*/
+#video{
+    background-color: #1A5C38;
+    margin: 0px -10px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 57%;
+}
+#video > iframe{
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   height: 90%;
+   width: 90%;
+}
+
+/* configuração da INDORMACAO*/
+#informacao{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C4EAD6;
+    border-radius: 12px 12px 0px 0px;
+    margin: 30px 0px 0px 0px;
+    
+}
+
+/* configuração de TABELA*/
+#descricao{
+    background-color: #C4EAD6;
+    padding: 0px 0px 0px 30px;
+    columns: 2;
+    list-style: none;
+}
+#descricao > li{
+    padding: 2px;
+}
+
+/* configuração de RODAPÉ*/
+footer{
+    background-color: #1A5C38;
+    color: aliceblue;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    padding: 5px;
+}
+
+/* configuração de IMAGEM*/
+#irina{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+img{
+    position: relative;
+    display: block;
+    margin: auto;
+}
